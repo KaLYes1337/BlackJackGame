@@ -1,0 +1,10 @@
+TODO:
+    -Make the console printing better
+    -Add split function
+    -Add double down function
+    -Insurance check
+    -*UI*
+
+
+BUGS TO FIX
+    -If dealer has 21 it cancels the game of first dealer. Even though the card is "Hidden"
