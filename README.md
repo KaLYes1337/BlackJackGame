@@ -8,6 +8,14 @@ A simple console-based Blackjack game written in Python.
 - Dealer hits until they reach 17 or higher 💳.
 - The game supports multiple rounds until the player chooses to quit 🔁.
 - Cards are randomly shuffled for each round 🔄.
+- **Balance management**: The player’s balance is tracked, and they can continue playing as long as they have enough funds (minimum bet of 5$) 💸.
+- **Bust Handling**: The game continues even if the player busts, as long as they have enough balance to place another bet 🔄.
+- Proper handling when the player gets 21 🏆.
+
+## Updates ✅
+- (24.12) Made proper handling when player has 21 🎉.
+- (24.12) Fixed bugs with double printing in the console 🔧.
+- (24.12) Fixed bug with multiple printing of player and dealer hands 🛠️.
 
 ## How to Play 🎮
 1. When prompted, enter `(D)` to start a new round or `(Q)` to quit the game ✋❌.
@@ -15,10 +23,14 @@ A simple console-based Blackjack game written in Python.
 3. As the player, you can choose to (H)it to take another card or (S)tand to end your turn ⬆️➡️.
 4. The dealer will automatically continue drawing cards until their total is 17 or more 🃏➡️.
 5. The winner is determined based on who has the higher hand value without exceeding 21 🏆. If both the player and dealer have the same value, it’s a tie ("Push") 🤝.
+6. If you bust, you can still continue playing in the next round if your balance allows it 🔄.
 
 ## To Do 🛠️
-- **Splitting**: The player will be able to split their hand if they receive two cards of the same value 🔀.
-- **Doubling**: The player will be able to double their bet after receiving their first two cards 💰.
-- **Balance**: A player’s balance will be added to track their winnings and losses 💸.
+- **Make the console printing better**: Enhance the formatting for readability 🖥️.
+- **Add split function**: Only when the player receives pairs or cards with the same value 🔀.
+- **Add double down function**: Let the player double their bet after receiving the first two cards 💰.
+- **Insurance check**: Add a feature to check if the player wants to place an insurance bet 🛡️.
+- **UI**: Improve the user interface (UI) for better experience 🎨.
 
-"# BlackJackGame" 
+## Bugs to Fix 🐞
+- If the dealer has 21, it cancels the game on the first deal, even though the card 

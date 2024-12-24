@@ -1,10 +1,15 @@
+UPDATES:
+    -Made proper handling when player has 21 (24.12)
+    -Fixed bugs with double printing in console (24.12)
+    -Fixed bug with multipible printing of player and dealer hands (24.12)
+
 TODO:
     -Make the console printing better
-    -Add split function
+    -Add split function (Only when pairs or same value)
     -Add double down function
     -Insurance check
     -*UI*
 
 
 BUGS TO FIX
-    -If dealer has 21 it cancels the game of first dealer. Even though the card is "Hidden"
+    -If dealer has 21 it cancels the game on first deal. Even though the card is "Hidden"
