@@ -33,4 +33,4 @@ A simple console-based Blackjack game written in Python.
 - **UI**: Improve the user interface (UI) for better experience 🎨.
 
 ## Bugs to Fix 🐞
-- If the dealer has 21, it cancels the game on the first deal, even though the card 
+- If the dealer has 21, it cancels the game on the first deal, even though the second card is hidden and the value is not displayed to the player.
